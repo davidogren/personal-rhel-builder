@@ -1,4 +1,4 @@
-name = "sample-webserver"
+name = "demo-webserver"
 description = "standard apache httpd webserver"
 version = "0.0.1"
 
