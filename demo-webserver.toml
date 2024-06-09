@@ -1,25 +1,8 @@
 name = "demo-webserver"
 description = "standard apache httpd webserver"
-version = "0.0.1"
-
-[customizations.services]
-enabled = ["httpd"]
-
-[customizations.firewall.services]
-enabled = ["http","https"]
-
-[[modules]]
-version = "2.4.*"
-name = "httpd"
-
-[[modules]]
-version = "2.4.*"
-name = "mod_ssl"
+version = "0.0.2"
+distro = "rhel-94"
 
 [[packages]]
-version = "*"
-name = "openssh-server"
-
-[[packages]]
-version = "*"
-name = "rsync"
+name = "tmux"
+version = "3.2a"

@@ -1,0 +1,26 @@
+name = "demo-postgres"
+description = ""
+version = "0.0.2"
+
+[[packages]]
+name = "postgresql"
+
+[[packages]]
+name = "postgresql-server"
+
+[[packages]]
+name = "tuned-profiles-postgresql"
+
+[customizations]
+[customizations.kernel]
+append = ""
+[customizations.timezone]
+[customizations.locale]
+[customizations.firewall]
+[customizations.firewall.services]
+enabled = ["postgres"]
+[customizations.services]
+enabled = ["postgres"]
+[customizations.fdo]
+[customizations.ignition]
+[customizations.ignition.firstboot]
