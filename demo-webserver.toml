@@ -1,6 +1,6 @@
 name = "demo-webserver"
 description = "standard apache httpd webserver"
-version = "1.0.3"
+version = "1.0.4"
 distro = "rhel-94"
 
 [[packages]]
@@ -16,8 +16,5 @@ name = "ogren"
 password = "$6$olmomMEyXF2CY3Fw$zWHZVhwU9rLmZ2wVi3IdVZD0dgDc7K0Dn1ChKIHbwARehvQkJdWNDrtDDTb4JyoCCBuzOQFFG2PVlVbGAzGUV."
 shell = "/usr/bin/bash"
 
-[customizations.services]
-enabled = ["sshd", "httpd"]
-
 [customizations.firewall.services]
-enabled = ["httpd:tcp"]
+enabled = ["http"]
