@@ -1,6 +1,6 @@
 name = "demo-postgres"
 description = ""
-version = "0.0.2"
+version = "0.0.3"
 
 [[packages]]
 name = "postgresql"
@@ -11,16 +11,5 @@ name = "postgresql-server"
 [[packages]]
 name = "tuned-profiles-postgresql"
 
-[customizations]
-[customizations.kernel]
-append = ""
-[customizations.timezone]
-[customizations.locale]
-[customizations.firewall]
 [customizations.firewall.services]
-enabled = ["postgres"]
-[customizations.services]
-enabled = ["postgres"]
-[customizations.fdo]
-[customizations.ignition]
-[customizations.ignition.firstboot]
+ports = ["5432"]
