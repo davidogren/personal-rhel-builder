@@ -1,6 +1,6 @@
 name = "demo-webserver"
 description = "standard apache httpd webserver"
-version = "1.0.1"
+version = "1.0.2"
 distro = "rhel-94"
 
 [[packages]]
@@ -18,4 +18,3 @@ shell = "/usr/bin/bash"
 
 [customizations.firewall.services]
 enabled = ["sshd", "httpd"]
-disabled = ["postfix", "telnetd"]
