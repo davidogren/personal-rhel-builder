@@ -1,6 +1,6 @@
 name = "demo-webserver"
 description = "standard apache httpd webserver"
-version = "1.0"
+version = "1.0.0"
 distro = "rhel-94"
 
 [[packages]]
