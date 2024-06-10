@@ -17,4 +17,4 @@ password = "$6$olmomMEyXF2CY3Fw$zWHZVhwU9rLmZ2wVi3IdVZD0dgDc7K0Dn1ChKIHbwARehvQk
 shell = "/usr/bin/bash"
 
 [customizations.firewall.services]
-enabled = ["sshd", "httpd"]
+enabled = ["httpd"]
