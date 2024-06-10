@@ -2,6 +2,11 @@ name = "demo-postgres"
 description = ""
 version = "0.0.3"
 
+[[customizations.user]]
+name = "ogren"
+password = "$6$olmomMEyXF2CY3Fw$zWHZVhwU9rLmZ2wVi3IdVZD0dgDc7K0Dn1ChKIHbwARehvQkJdWNDrtDDTb4JyoCCBuzOQFFG2PVlVbGAzGUV."
+shell = "/usr/bin/bash"
+
 [[packages]]
 name = "postgresql"
 
@@ -12,4 +17,4 @@ name = "postgresql-server"
 name = "tuned-profiles-postgresql"
 
 [customizations.firewall.services]
-ports = ["5432"]
+ports = ["5432:tcp"]
