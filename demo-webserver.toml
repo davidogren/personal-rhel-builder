@@ -1,11 +1,11 @@
 name = "demo-webserver"
 description = "standard apache httpd webserver"
-version = "1.0.6"
-distro = "rhel-8"
+version = "1.0.7"
+distro = "rhel-94"
 
 [[packages]]
 name = "tmux"
-version = "2.7"
+version = "> 2.7"
 
 [[packages]]
 name = "httpd"
