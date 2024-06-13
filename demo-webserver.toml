@@ -1,7 +1,7 @@
 name = "demo-webserver"
 description = "standard apache httpd webserver"
 version = "1.0.4"
-distro = "rhel-94"
+distro = "rhel-810"
 
 [[packages]]
 name = "tmux"
