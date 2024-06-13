@@ -5,7 +5,7 @@ distro = "rhel-94"
 
 [[packages]]
 name = "tmux"
-version = "> 2.7"
+version = "3.2a"
 
 [[packages]]
 name = "httpd"
